@@ -28,11 +28,21 @@
 
 // alert('2を掛け続けて' + max + 'を超えるのに必要だった回数は' + count + '回です');
 
-var i;
-var num = 0;
+// var i;
+// var num = 0;
 
-for(i = 1; i < 11; i++){
-  num = num + i;
+// for(i = 1; i < 11; i++){
+//   num = num + i;
+// }
+
+// alert('1から10まで足し算した結果は' + num + 'です');
+
+var alertString;
+alertString = addString("WebCamp");
+
+alert(alertString);
+
+function addString(strA){
+  var addStr = "Hello " + strA;
+  return addStr;
 }
-
-alert('1から10まで足し算した結果は' + num + 'です');
